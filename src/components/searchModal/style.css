@@ -1,0 +1,10 @@
+@keyframes slideIn {
+    from {
+      transform: translateY(-40%);
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translate(-50%, -50%);
+    }
+  }
+  

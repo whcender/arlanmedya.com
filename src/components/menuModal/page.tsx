@@ -8,9 +8,9 @@ interface SearchModalProps {
 const Page: React.FC<SearchModalProps> = ({ setIsMenuOpen }) => {
   return (
     <div className='flex w-[87%] h-full absolute z-40 top-0 left-0'>
-        <div className='bg-white pl-[42px] pt-[14px] w-[40%] h-full'>
+        <div className='bg-white pl-[42px] pt-[14px] w-[40%] hidden lg:flex flex-col'>
             <Image src="/logob.png" height={70} width={70} alt="logo" />
-            <div className='flex flex-col gap-20 justify-center h-[80%]'>
+            <div className='flex-col gap-20 justify-center h-[80%] hidden lg:flex'>
                 <div>
                     <h5 className='opacity-70'>Telefon</h5>
                     <p className='font-semibold text-lg'>+90 555 555 55 55</p>

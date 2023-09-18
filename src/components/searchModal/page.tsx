@@ -18,8 +18,8 @@ const Page: React.FC<SearchModalProps> = ({ setIsOpen }) => {
     };
 
     return (
-        <div style={containerStyle} className='opacity-[97%] overflow-hidden bg-black w-full h-full'>
-            <div className='flex items-center justify-center gap-3 h-full'>
+        <div style={containerStyle} className='opacity-[97%] z-50 overflow-hidden bg-black w-full h-full'>
+            <div className='flex items-center justify-center gap-1 h-full'>
                 <input className='text-center outline-none border-none bg-black text-white text-2xl' type="text" placeholder='Yazmaya başlayın..' />
                 <button><AiOutlineSearch color="white" size="30"/></button>
             </div>

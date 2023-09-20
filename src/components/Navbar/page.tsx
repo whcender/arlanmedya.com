@@ -18,7 +18,7 @@ const page = () => {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
     return (
     <div className='bg-black w-full z-50'>
-        <div className='flex items-center container z-50 w-[95%] m-auto justify-between'>
+        <div className='flex items-center container z-40 w-[95%] m-auto justify-between'>
             <div className='z-50'>
                 <Image className='cursor-pointer' src="/logow.png" height={70} width={70} alt='logo'/>
             </div>
@@ -38,7 +38,7 @@ const page = () => {
                 isOpen && <SearchModal setIsOpen={setIsOpen}/>
             }
             {
-                isMenuOpen && <MenuModal setIsMenuOpen={setIsMenuOpen}/>
+                isMenuOpen && <MenuModal />
             }
 
         </div>

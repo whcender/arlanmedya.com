@@ -1,15 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
+import './style.css'
 
-interface SearchModalProps {
-    setIsMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
-  }
 
-const Page: React.FC<SearchModalProps> = ({ setIsMenuOpen }) => {
+const Page: React.FC = () => {
+    const containerStyle: React.CSSProperties = {
+        animation: 'slideIn 1s ease',
+    };
   return (
-    <div className='flex w-[60%] md:w-[70%] lg:w-[90%] h-full absolute z-10 top-0 left-0'>
-        <div className='bg-white pl-[42px] pt-[14px] w-[40%] hidden lg:flex flex-col'>
-            <Image src="/logob.png" height={70} width={70} alt="logo" />
+    <div style={containerStyle} className='flex w-[60%] md:w-[70%] lg:w-[90%] h-full absolute z-10 lg:z-50 top-0 left-0'>
+        <div className='bg-white pl-[42px] z-50 pt-[14px] w-[40%] hidden lg:flex flex-col'>
+            <Image className='hidden lg:flex ' src="/logob.png" height={70} width={70} alt="logo" />
             <div className='flex-col gap-20 justify-center h-[80%] hidden lg:flex'>
                 <div>
                     <h5 className='opacity-70'>Telefon</h5>

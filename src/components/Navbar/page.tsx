@@ -18,7 +18,7 @@ const page = () => {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
     return (
     <div className='bg-black w-full'>
-        <div className='flex items-center w-[95%] m-auto justify-between'>
+        <div className='flex items-center container w-[95%] m-auto justify-between'>
             <div>
                 <Image className='cursor-pointer' src="/logow.png" height={70} width={70} alt='logo'/>
             </div>

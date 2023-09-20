@@ -7,7 +7,7 @@ interface SearchModalProps {
 
 const Page: React.FC<SearchModalProps> = ({ setIsMenuOpen }) => {
   return (
-    <div className='flex w-[87%] h-full absolute z-40 top-0 left-0'>
+    <div className='flex w-[50%] md:w-[60%] lg:w-[87%] h-full absolute z-40 top-0 left-0'>
         <div className='bg-white pl-[42px] pt-[14px] w-[40%] hidden lg:flex flex-col'>
             <Image src="/logob.png" height={70} width={70} alt="logo" />
             <div className='flex-col gap-20 justify-center h-[80%] hidden lg:flex'>
@@ -25,8 +25,9 @@ const Page: React.FC<SearchModalProps> = ({ setIsMenuOpen }) => {
                 </div>
             </div>
         </div>
-        <div className='bg-black w-full h-full'>
-            <div className='flex flex-col text-white w-[80%] m-auto justify-center h-full gap-10 font-bold text-3xl'>
+        <div className='bg-black w-full h-full relative'>
+            <div className='flex flex-col text-white w-[80%] m-auto justify-center h-full gap-10 font-bold text-xl lg:text-3xl'>
+            <Image className='lg:hidden' src="/logow.png" height={70} width={70} alt="logo" />
             <a className='hover:text-red-800' href="#">Hakkımızda</a>
             <a className='hover:text-red-800' href="#">İletişim</a>
             <a className='hover:text-red-800' href="#">Paketler</a>
@@ -34,6 +35,9 @@ const Page: React.FC<SearchModalProps> = ({ setIsMenuOpen }) => {
             <a className='hover:text-red-800' href="#">Start Project</a>
             <a className='hover:text-red-800' href="#">Teklif Alın</a>
             </div>
+        <div className='absolute bottom-2 w-full text-center text-white text-sm font-bold'>
+            <span>arlanmedya</span>
+        </div>
         </div>
     </div>
   )

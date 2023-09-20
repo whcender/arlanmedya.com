@@ -1,4 +1,4 @@
-@keyframes slideIn {
+@keyframes slideInSearch {
     from {
       transform: translateY(-40%);
       transform: translateX(-50%);

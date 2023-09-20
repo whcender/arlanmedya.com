@@ -14,7 +14,7 @@ const Page: React.FC<SearchModalProps> = ({ setIsOpen }) => {
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
-        animation: 'slideIn 0.5s ease',
+        animation: 'slideInSearch 0.5s ease',
     };
 
     return (

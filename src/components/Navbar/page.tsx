@@ -31,7 +31,7 @@ const page = () => {
                 <div className='text-white flex gap-6'>
                     <div className='bg-white w-[0.5px] h-20 mb-2 mt-2 hidden xl:flex'></div>
                     <button onClick={ toggle } ><AiOutlineSearch size="23"/></button>
-                    <button onClick={toggleMenu}>{isMenuOpen ? <AiOutlineClose /> : <HiMenuAlt2 size="23"/> }</button>
+                    <button onClick={toggleMenu}>{isMenuOpen ? <AiOutlineClose size="23"/> : <HiMenuAlt2 size="23"/> }</button>
                 </div>
             </div>
             {

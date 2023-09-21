@@ -18,7 +18,7 @@ const Page: React.FC = () => {
                     <p className='font-semibold text-lg'>+90 555 555 55 55</p>
                 </div>
                 <div>
-                    <h5 className='font-bebas font-normal opacity-70'>E-posta</h5>
+                    <h5 className='opacity-70'>E-posta</h5>
                     <p className='font-semibold text-lg'>arlanmedya@gmail.com</p>
                 </div>
                 <div>
@@ -27,9 +27,9 @@ const Page: React.FC = () => {
                 </div>
             </div>
         </div>
-        <div className='bg-black w-full h-full relative z-10'>
+        <div className='bg-black w-full h-full relative z-10 font-bebas tracking-widest'>
             <div className='flex flex-col text-white w-[80%] m-auto justify-center h-full gap-10 font-bold text-xl lg:text-3xl'>
-            <a className='hover:text-red-800' href="#">Hakkımızda</a>
+            <a className='hover:text-red-800 ' href="#">Hakkımızda</a>
             <a className='hover:text-red-800' href="#">İletişim</a>
             <a className='hover:text-red-800' href="#">Paketler</a>
             <a className='hover:text-red-800' href="#">Sosyal Medya</a>

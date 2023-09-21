@@ -18,7 +18,7 @@ const Page: React.FC = () => {
                     <p className='font-semibold text-lg'>+90 555 555 55 55</p>
                 </div>
                 <div>
-                    <h5 className='opacity-70'>E-posta</h5>
+                    <h5 className='font-bebas font-normal opacity-70'>E-posta</h5>
                     <p className='font-semibold text-lg'>arlanmedya@gmail.com</p>
                 </div>
                 <div>

@@ -10,6 +10,8 @@ const config: Config = {
     fontFamily: {
       sans: ['Inter', 'sans-serif'],
       cabin: ['Cabin', 'sans-serif'],
+      bebas: ['Bebas Neue', 'sans-serif'],
+
      
   },
     extend: {

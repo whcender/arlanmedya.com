@@ -17,14 +17,14 @@ const page = () => {
     const toggle = () => setIsOpen(!isOpen);
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
     return (
-    <div className='bg-black w-full z-50'>
+    <div className='bg-black w-full z-50 font-bebas font-normal'>
         <div className='flex items-center container z-40 w-[95%] m-auto justify-between'>
             <div className='z-50'>
                 <Image className='cursor-pointer' src="/logow.png" height={70} width={70} alt='logo'/>
             </div>
             <div className=' flex items-center gap-4 font-semibold'>
                 <a href='#' className='text-white hover:text-red-600 transition-all duration-400 hidden xl:flex'>Work</a>
-                <a href='#' className='text-white hover:text-red-600 transition-all duration-400 hidden xl:flex'>Philosophy</a>
+                <a href='#' className='text-white hover:text-red-600 transition-all font-bebas duration-400 hidden xl:flex'>Philosophy</a>
                 <div>
                     <a href="#" className='text-white border-2 px-2 py-3 hover:bg-white hover:text-black transition-all duration-400 hidden xl:flex'>Start A Project</a>
                 </div>

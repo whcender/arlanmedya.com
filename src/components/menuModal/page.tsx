@@ -5,7 +5,7 @@ import './style.css'
 
 const Page: React.FC = () => {
     const containerStyle: React.CSSProperties = {
-        animation: 'slideIn 1s ease',
+        animation: 'slideIn 0.6s ease',
         animationFillMode: 'forwards', 
     };
   return (

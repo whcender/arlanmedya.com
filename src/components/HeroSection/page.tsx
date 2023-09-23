@@ -1,12 +1,13 @@
 "use client"
 import React from 'react'
 import { TypeAnimation } from "react-type-animation";
+import './style.css'
 
 
 const page = () => {
   return (
     <div className='flex items-center flex-col h-[100vh] bg-slate-950 text-3xl font-semibold gap-3 text-white justify-center'>
-        <h3>Merhbaa biz ekip olarak,</h3>
+        <h3 className='gradient-text'>Merhaba biz ekip olarak,</h3>
         <TypeAnimation
               sequence={[
                 "Reklam Yönetimi",

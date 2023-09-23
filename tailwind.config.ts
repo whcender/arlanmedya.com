@@ -11,7 +11,7 @@ const config: Config = {
       sans: ['Inter', 'sans-serif'],
       cabin: ['Cabin', 'sans-serif'],
       bebas: ['Bebas Neue', 'sans-serif'],
-
+      popin: ['Poppins', 'sans-serif'],
      
   },
     extend: {

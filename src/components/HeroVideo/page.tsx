@@ -9,7 +9,7 @@ const Page = () => {
         loop
         muted
         className=" w-[80%] lg:w-[40%] object-cover mt-12 absolute z-10 top-7"
-        // poster="/path-to-poster-image.jpg" // Bir önizleme görüntüsü ekleyebilirsiniz
+        poster="./poster.png" // Bir önizleme görüntüsü ekleyebilirsiniz
       >
         <source src="./arlan.mp4" type="video/mp4" />
       </video>

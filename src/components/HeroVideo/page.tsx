@@ -5,7 +5,6 @@ const Page = () => {
   return (
     <div className="flex items-center flex-col justify-center relative">
       <video
-        autoPlay
         loop
         muted
         className=" w-[80%] lg:w-[40%] object-cover mt-12 absolute z-10 top-7 "

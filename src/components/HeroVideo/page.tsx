@@ -8,8 +8,7 @@ const Page = () => {
         autoPlay
         loop
         muted
-        className=" w-[80%] lg:w-[40%] object-cover mt-12 absolute z-10 top-7"
-        poster="./poster.png" // Bir önizleme görüntüsü ekleyebilirsiniz
+        className=" w-[80%] lg:w-[40%] object-cover mt-12 absolute z-10 top-7 "
       >
         <source src="./optimizatedar.mp4" type="video/mp4" />
       </video>

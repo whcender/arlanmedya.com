@@ -1,5 +1,4 @@
 import HeroSection from '../components/HeroSection/page'
-import HeroVideo from '../components/HeroVideo/page'
 
 export default function Home() {
   return (

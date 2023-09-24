@@ -9,7 +9,7 @@ const Page: React.FC = () => {
         animationFillMode: 'forwards', 
     };
   return (
-    <div style={containerStyle} className='flex w-[60%] md:w-[70%] lg:w-[91%] h-full absolute z-10 lg:z-50 top-0 left-0'>
+    <div style={containerStyle} className='flex w-[65%] md:w-[70%] lg:w-[85%] h-full absolute z-10 lg:z-50 top-0 left-0'>
         <div className='bg-white pl-[42px] z-50 pt-[14px] w-[40%] hidden lg:flex flex-col'>
             <Image className='hidden lg:flex ' src="/logob.png" height={70} width={70} alt="logo" />
             <div className='flex-col gap-20 justify-center h-[80%] hidden lg:flex'>

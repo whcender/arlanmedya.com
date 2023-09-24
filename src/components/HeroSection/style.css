@@ -8,4 +8,8 @@
     -webkit-background-clip: text;
     color: transparent;
   }
-  
+  /* Add a class for the button on hover */
+.button-icon:hover .icon {
+  transform: translateX(7px); /* Adjust the amount you want the icon to move */
+  transition: transform 0.5s ease; /* Adjust the transition duration and easing as needed */
+}
